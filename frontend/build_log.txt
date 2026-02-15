@@ -1,0 +1,6 @@
+
+> frontend@0.0.0 build
+> tsc -b && vite build
+
+src/main.tsx(1,1): error TS6133: 'React' is declared but its value is never read.
+src/pages/ExamPage.tsx(46,21): error TS6133: 'setQuestions' is declared but its value is never read.

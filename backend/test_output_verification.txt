@@ -1,0 +1,150 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< com.secureexam:backend >-----------------------
+[INFO] Building backend 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ backend ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 3 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ backend ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ backend ---
+[INFO] skip non existing resourceDirectory E:\secure-exam-platform\backend\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ backend ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 2 source files with javac [debug release 21] to target\test-classes
+[INFO] 
+[INFO] --- surefire:3.1.2:test (default-test) @ backend ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.1.2/surefire-junit-platform-3.1.2.pom
+Progress (1): 847 BProgress (1): 2.8 kBProgress (1): 4.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.1.2/surefire-junit-platform-3.1.2.pom (4.7 kB at 5.4 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/3.1.2/surefire-providers-3.1.2.pom
+Progress (1): 849 BProgress (1): 2.4 kBProgress (1): 2.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/3.1.2/surefire-providers-3.1.2.pom (2.6 kB at 47 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.1.2/common-java5-3.1.2.pom
+Progress (1): 849 BProgress (1): 2.1 kBProgress (1): 2.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.1.2/common-java5-3.1.2.pom (2.8 kB at 53 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.9.2/junit-platform-launcher-1.9.2.pom
+Progress (1): 966 BProgress (1): 2.6 kBProgress (1): 3.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.9.2/junit-platform-launcher-1.9.2.pom (3.0 kB at 51 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.pom
+Progress (1): 957 BProgress (1): 2.6 kBProgress (1): 3.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.pom (3.2 kB at 58 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.pom
+Progress (1): 971 BProgress (1): 2.6 kBProgress (1): 2.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.pom (2.8 kB at 48 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.1.2/surefire-junit-platform-3.1.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.1.2/common-java5-3.1.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.9.2/junit-platform-launcher-1.9.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar
+Progress (1): 0.9/103 kBProgress (1): 2.3/103 kBProgress (1): 3.7/103 kBProgress (1): 5.0/103 kBProgress (1): 6.4/103 kBProgress (1): 7.8/103 kBProgress (1): 9.1/103 kBProgress (1): 11/103 kB Progress (1): 12/103 kBProgress (1): 13/103 kBProgress (1): 15/103 kBProgress (1): 16/103 kBProgress (1): 17/103 kBProgress (1): 19/103 kBProgress (1): 20/103 kBProgress (1): 21/103 kBProgress (1): 23/103 kBProgress (1): 24/103 kBProgress (1): 26/103 kBProgress (1): 27/103 kBProgress (1): 28/103 kBProgress (1): 30/103 kBProgress (1): 31/103 kBProgress (1): 32/103 kBProgress (1): 34/103 kBProgress (1): 38/103 kBProgress (1): 42/103 kBProgress (1): 46/103 kBProgress (1): 51/103 kBProgress (1): 55/103 kBProgress (1): 59/103 kBProgress (1): 63/103 kBProgress (1): 68/103 kBProgress (1): 72/103 kBProgress (1): 76/103 kBProgress (1): 80/103 kBProgress (1): 85/103 kBProgress (1): 89/103 kBProgress (1): 93/103 kBProgress (1): 97/103 kBProgress (1): 101/103 kBProgress (1): 103 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar (103 kB at 1.1 MB/s)
+Progress (1): 0.9/189 kBProgress (1): 2.3/189 kBProgress (1): 3.7/189 kBProgress (1): 5.0/189 kBProgress (1): 6.4/189 kBProgress (1): 7.8/189 kBProgress (1): 9.1/189 kBProgress (1): 11/189 kB Progress (1): 12/189 kBProgress (1): 13/189 kBProgress (1): 15/189 kBProgress (1): 16/189 kBProgress (1): 17/189 kBProgress (1): 19/189 kBProgress (1): 20/189 kBProgress (1): 21/189 kBProgress (1): 23/189 kBProgress (1): 24/189 kBProgress (1): 26/189 kBProgress (1): 27/189 kBProgress (1): 28/189 kBProgress (1): 30/189 kBProgress (1): 31/189 kBProgress (1): 32/189 kBProgress (1): 34/189 kBProgress (2): 34/189 kB | 0.9/18 kBProgress (2): 35/189 kB | 0.9/18 kBProgress (2): 37/189 kB | 0.9/18 kBProgress (2): 37/189 kB | 2.3/18 kBProgress (2): 38/189 kB | 2.3/18 kBProgress (2): 38/189 kB | 3.7/18 kBProgress (2): 39/189 kB | 3.7/18 kBProgress (2): 39/189 kB | 5.0/18 kBProgress (2): 41/189 kB | 5.0/18 kBProgress (2): 41/189 kB | 6.4/18 kBProgress (2): 41/189 kB | 7.8/18 kBProgress (2): 42/189 kB | 7.8/18 kBProgress (2): 42/189 kB | 9.1/18 kBProgress (2): 43/189 kB | 9.1/18 kBProgress (2): 43/189 kB | 11/18 kB Progress (2): 45/189 kB | 11/18 kBProgress (2): 45/189 kB | 12/18 kBProgress (2): 46/189 kB | 12/18 kBProgress (2): 46/189 kB | 13/18 kBProgress (2): 47/189 kB | 13/18 kBProgress (2): 47/189 kB | 15/18 kBProgress (2): 49/189 kB | 15/18 kBProgress (2): 49/189 kB | 16/18 kBProgress (2): 50/189 kB | 16/18 kBProgress (2): 52/189 kB | 16/18 kBProgress (2): 52/189 kB | 17/18 kBProgress (2): 53/189 kB | 17/18 kBProgress (2): 53/189 kB | 18 kB   Progress (2): 54/189 kB | 18 kBProgress (2): 56/189 kB | 18 kBProgress (2): 60/189 kB | 18 kBProgress (2): 64/189 kB | 18 kBProgress (2): 68/189 kB | 18 kBProgress (2): 73/189 kB | 18 kBProgress (2): 77/189 kB | 18 kBProgress (2): 81/189 kB | 18 kBProgress (2): 85/189 kB | 18 kBProgress (2): 90/189 kB | 18 kBProgress (2): 94/189 kB | 18 kBProgress (2): 98/189 kB | 18 kBProgress (2): 102/189 kB | 18 kBProgress (2): 106/189 kB | 18 kBProgress (2): 111/189 kB | 18 kBProgress (2): 115/189 kB | 18 kBProgress (2): 119/189 kB | 18 kBProgress (2): 123/189 kB | 18 kBProgress (2): 128/189 kB | 18 kBProgress (2): 132/189 kB | 18 kB                                Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.1.2/common-java5-3.1.2.jar (18 kB at 122 kB/s)
+Progress (1): 136/189 kBProgress (1): 140/189 kBProgress (1): 144/189 kBProgress (1): 149/189 kBProgress (1): 153/189 kBProgress (1): 157/189 kBProgress (1): 161/189 kBProgress (1): 166/189 kBProgress (1): 170/189 kBProgress (1): 174/189 kBProgress (1): 178/189 kBProgress (1): 183/189 kBProgress (1): 187/189 kBProgress (1): 189 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.jar (189 kB at 1.2 MB/s)
+Progress (1): 0.9/27 kBProgress (1): 2.3/27 kBProgress (1): 3.7/27 kBProgress (1): 5.0/27 kBProgress (1): 6.4/27 kBProgress (1): 7.8/27 kBProgress (1): 9.1/27 kBProgress (1): 11/27 kB Progress (1): 12/27 kBProgress (1): 13/27 kBProgress (1): 15/27 kBProgress (1): 16/27 kBProgress (1): 17/27 kBProgress (1): 18/27 kBProgress (1): 20/27 kBProgress (1): 21/27 kBProgress (1): 23/27 kBProgress (1): 24/27 kBProgress (1): 25/27 kBProgress (1): 27/27 kBProgress (1): 27 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.1.2/surefire-junit-platform-3.1.2.jar (27 kB at 24 kB/s)
+Progress (1): 0.9/169 kBProgress (1): 2.3/169 kBProgress (1): 3.7/169 kBProgress (1): 5.0/169 kBProgress (1): 6.4/169 kBProgress (1): 7.8/169 kBProgress (1): 9.1/169 kBProgress (1): 11/169 kB Progress (1): 12/169 kBProgress (1): 13/169 kBProgress (1): 15/169 kBProgress (1): 16/169 kBProgress (1): 17/169 kBProgress (1): 19/169 kBProgress (1): 20/169 kBProgress (1): 21/169 kBProgress (1): 23/169 kBProgress (1): 24/169 kBProgress (1): 26/169 kBProgress (1): 27/169 kBProgress (1): 28/169 kBProgress (1): 30/169 kBProgress (1): 31/169 kBProgress (1): 32/169 kBProgress (1): 33/169 kBProgress (1): 35/169 kBProgress (1): 36/169 kBProgress (1): 38/169 kBProgress (1): 39/169 kBProgress (1): 40/169 kBProgress (1): 42/169 kBProgress (1): 43/169 kBProgress (1): 44/169 kBProgress (1): 46/169 kBProgress (1): 47/169 kBProgress (1): 48/169 kBProgress (1): 50/169 kBProgress (1): 51/169 kBProgress (1): 53/169 kBProgress (1): 54/169 kBProgress (1): 55/169 kBProgress (1): 60/169 kBProgress (1): 64/169 kBProgress (1): 68/169 kBProgress (1): 72/169 kBProgress (1): 76/169 kBProgress (1): 81/169 kBProgress (1): 85/169 kBProgress (1): 89/169 kBProgress (1): 93/169 kBProgress (1): 98/169 kBProgress (1): 102/169 kBProgress (1): 106/169 kBProgress (1): 110/169 kBProgress (1): 115/169 kBProgress (1): 119/169 kBProgress (1): 123/169 kBProgress (1): 127/169 kBProgress (1): 131/169 kBProgress (1): 136/169 kBProgress (1): 140/169 kBProgress (1): 144/169 kBProgress (1): 148/169 kBProgress (1): 153/169 kBProgress (1): 157/169 kBProgress (1): 161/169 kBProgress (1): 163/169 kBProgress (1): 167/169 kBProgress (1): 169 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.9.2/junit-platform-launcher-1.9.2.jar (169 kB at 77 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.10.1/junit-platform-launcher-1.10.1.pom
+Progress (1): 967 BProgress (1): 3.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.10.1/junit-platform-launcher-1.10.1.pom (3.0 kB at 40 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.10.1/junit-platform-launcher-1.10.1.jar
+Progress (1): 3.8/184 kBProgress (1): 8.0/184 kBProgress (1): 12/184 kB Progress (1): 16/184 kBProgress (1): 21/184 kBProgress (1): 25/184 kBProgress (1): 29/184 kBProgress (1): 33/184 kBProgress (1): 38/184 kBProgress (1): 54/184 kBProgress (1): 70/184 kBProgress (1): 87/184 kBProgress (1): 103/184 kBProgress (1): 120/184 kBProgress (1): 136/184 kBProgress (1): 152/184 kBProgress (1): 169/184 kBProgress (1): 184 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.10.1/junit-platform-launcher-1.10.1.jar (184 kB at 2.7 MB/s)
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running AuthIntegrationTest
+00:15:20.265 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [AuthIntegrationTest]: AuthIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.515 s <<< FAILURE! -- in AuthIntegrationTest
+[ERROR] AuthIntegrationTest -- Time elapsed: 0.515 s <<< ERROR!
+java.lang.IllegalStateException: Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @SpringBootTest(classes=...) with your test
+	at org.springframework.util.Assert.state(Assert.java:76)
+	at org.springframework.boot.test.context.SpringBootTestContextBootstrapper.findConfigurationClass(SpringBootTestContextBootstrapper.java:246)
+	at org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses(SpringBootTestContextBootstrapper.java:233)
+	at org.springframework.boot.test.context.SpringBootTestContextBootstrapper.processMergedContextConfiguration(SpringBootTestContextBootstrapper.java:150)
+	at org.springframework.test.context.support.AbstractTestContextBootstrapper.buildMergedContextConfiguration(AbstractTestContextBootstrapper.java:351)
+	at org.springframework.test.context.support.AbstractTestContextBootstrapper.buildDefaultMergedContextConfiguration(AbstractTestContextBootstrapper.java:267)
+	at org.springframework.test.context.support.AbstractTestContextBootstrapper.buildMergedContextConfiguration(AbstractTestContextBootstrapper.java:215)
+	at org.springframework.test.context.support.AbstractTestContextBootstrapper.buildTestContext(AbstractTestContextBootstrapper.java:108)
+	at org.springframework.boot.test.context.SpringBootTestContextBootstrapper.buildTestContext(SpringBootTestContextBootstrapper.java:111)
+	at org.springframework.test.context.TestContextManager.<init>(TestContextManager.java:142)
+	at org.springframework.test.context.TestContextManager.<init>(TestContextManager.java:126)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.getTestContextManager(SpringExtension.java:366)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.beforeAll(SpringExtension.java:131)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+[INFO] Running com.secureexam.backend.BackendApplicationTests
+00:15:20.448 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.secureexam.backend.BackendApplicationTests]: BackendApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+00:15:20.628 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.secureexam.backend.BackendApplication for test class com.secureexam.backend.BackendApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.2)
+
+2026-02-12T00:15:21.445+05:30  INFO 14716 --- [           main] c.s.backend.BackendApplicationTests      : Starting BackendApplicationTests using Java 21.0.7 with PID 14716 (started by kheru in E:\secure-exam-platform\backend)
+2026-02-12T00:15:21.447+05:30  INFO 14716 --- [           main] c.s.backend.BackendApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2026-02-12T00:15:23.369+05:30  INFO 14716 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-12T00:15:23.503+05:30  INFO 14716 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 108 ms. Found 7 JPA repository interfaces.
+2026-02-12T00:15:25.023+05:30  INFO 14716 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-12T00:15:25.208+05:30  INFO 14716 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2026-02-12T00:15:25.272+05:30  INFO 14716 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-02-12T00:15:25.848+05:30  INFO 14716 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-12T00:15:25.892+05:30  INFO 14716 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-02-12T00:15:26.258+05:30  INFO 14716 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@59b447a4
+2026-02-12T00:15:26.261+05:30  INFO 14716 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-02-12T00:15:26.333+05:30  WARN 14716 --- [           main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-02-12T00:15:28.384+05:30  INFO 14716 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: create table suspicious_activity (id bigserial not null, activity_type varchar(255), details varchar(255), exam_id bigint, timestamp timestamp(6), user_id bigint, primary key (id))
+2026-02-12T00:15:29.015+05:30  INFO 14716 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-12T00:15:30.553+05:30  WARN 14716 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-12T00:15:30.636+05:30  WARN 14716 --- [           main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 9174e49d-9712-494e-a05c-41c44d554a99
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-02-12T00:15:31.313+05:30  INFO 14716 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@28b286c0, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@718e700c, org.springframework.security.web.context.SecurityContextHolderFilter@25134e01, org.springframework.security.web.header.HeaderWriterFilter@d408c5d, org.springframework.web.filter.CorsFilter@5b5e45bc, org.springframework.security.web.authentication.logout.LogoutFilter@1a4c6e74, com.secureexam.backend.security.jwt.JwtAuthFilter@7095b688, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6a3c1b56, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3b8ce72, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@10c1682b, org.springframework.security.web.session.SessionManagementFilter@649a6d88, org.springframework.security.web.access.ExceptionTranslationFilter@43e9a8a2, org.springframework.security.web.access.intercept.AuthorizationFilter@28705150]
+2026-02-12T00:15:32.313+05:30  INFO 14716 --- [           main] c.s.backend.BackendApplicationTests      : Started BackendApplicationTests in 11.343 seconds (process running for 13.72)
+Hibernate: select r1_0.id,r1_0.name from roles r1_0 where r1_0.name=?
+Hibernate: select r1_0.id,r1_0.name from roles r1_0 where r1_0.name=?
+Hibernate: select r1_0.id,r1_0.name from roles r1_0 where r1_0.name=?
+Hibernate: select u1_0.id from users u1_0 where u1_0.email=? fetch first ? rows only
+Hibernate: select r1_0.id,r1_0.name from roles r1_0 where r1_0.name=?
+Hibernate: select r1_0.id,r1_0.name from roles r1_0 where r1_0.name=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.enabled,u1_0.name,u1_0.password from users u1_0 where u1_0.email=?
+Hibernate: select r1_0.user_id,r1_1.id,r1_1.name from user_roles r1_0 join roles r1_1 on r1_1.id=r1_0.role_id where r1_0.user_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.enabled,u1_0.name,u1_0.password from users u1_0 where u1_0.email=?
+Hibernate: select r1_0.user_id,r1_1.id,r1_1.name from user_roles r1_0 join roles r1_1 on r1_1.id=r1_0.role_id where r1_0.user_id=?
+WARNING: A Java agent has been loaded dynamically (C:\Users\kheru\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.11\byte-buddy-agent-1.14.11.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+Java HotSpot(TM) 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.15 s -- in com.secureexam.backend.BackendApplicationTests
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   AuthIntegrationTest » IllegalState Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @SpringBootTest(classes=...) with your test
+[INFO] 
+[ERROR] Tests run: 2, Failures: 0, Errors: 1, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  25.986 s
+[INFO] Finished at: 2026-02-12T00:15:33+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.1.2:test (default-test) on project backend: 
+[ERROR] 
+[ERROR] Please refer to E:\secure-exam-platform\backend\target\surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

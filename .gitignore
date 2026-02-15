@@ -1,0 +1,32 @@
+# .gitignore for Secure Exam Platform
+
+# Backend
+backend/target/
+backend/mvnw
+backend/mvnw.cmd
+backend/.mvn
+backend/.idea
+backend/*.iml
+backend/help.md
+backend/.classpath
+backend/.project
+backend/.settings/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/coverage/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# General
+.DS_Store
+.vscode/
+*.log
+tmp/
+.gemini/

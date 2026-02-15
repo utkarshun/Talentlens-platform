@@ -1,0 +1,139 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< com.secureexam:backend >-----------------------
+[INFO] Building backend 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ backend ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 3 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ backend ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ backend ---
+[INFO] skip non existing resourceDirectory E:\secure-exam-platform\backend\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ backend ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 2 source files with javac [debug release 21] to target\test-classes
+[INFO] 
+[INFO] --- surefire:3.1.2:test (default-test) @ backend ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.secureexam.backend.AuthIntegrationTest
+00:17:53.932 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.secureexam.backend.AuthIntegrationTest]: AuthIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+00:17:54.161 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.secureexam.backend.BackendApplication for test class com.secureexam.backend.AuthIntegrationTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.2)
+
+2026-02-12T00:17:55.082+05:30  INFO 22820 --- [           main] c.s.backend.AuthIntegrationTest          : Starting AuthIntegrationTest using Java 21.0.7 with PID 22820 (started by kheru in E:\secure-exam-platform\backend)
+2026-02-12T00:17:55.083+05:30  INFO 22820 --- [           main] c.s.backend.AuthIntegrationTest          : No active profile set, falling back to 1 default profile: "default"
+2026-02-12T00:17:56.678+05:30  INFO 22820 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-12T00:17:56.807+05:30  INFO 22820 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 112 ms. Found 7 JPA repository interfaces.
+2026-02-12T00:17:58.281+05:30  INFO 22820 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-12T00:17:58.546+05:30  INFO 22820 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2026-02-12T00:17:58.625+05:30  INFO 22820 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-02-12T00:17:59.174+05:30  INFO 22820 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-12T00:17:59.213+05:30  INFO 22820 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-02-12T00:17:59.672+05:30  INFO 22820 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@38c10190
+2026-02-12T00:17:59.673+05:30  INFO 22820 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-02-12T00:17:59.742+05:30  WARN 22820 --- [           main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-02-12T00:18:01.867+05:30  INFO 22820 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-12T00:18:02.136+05:30  INFO 22820 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-12T00:18:03.671+05:30  WARN 22820 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-12T00:18:03.757+05:30  WARN 22820 --- [           main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 89cd78c2-e214-4d15-a050-09e49cd9aeb1
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-02-12T00:18:04.470+05:30  INFO 22820 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@476dc0af, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@797ca322, org.springframework.security.web.context.SecurityContextHolderFilter@29f86630, org.springframework.security.web.header.HeaderWriterFilter@4981b83, org.springframework.web.filter.CorsFilter@570ede3b, org.springframework.security.web.authentication.logout.LogoutFilter@47b71556, com.secureexam.backend.security.jwt.JwtAuthFilter@3b28ab9b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4c51fc9a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@425376cc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@c22cf4d, org.springframework.security.web.session.SessionManagementFilter@85fd4b, org.springframework.security.web.access.ExceptionTranslationFilter@4110ffe5, org.springframework.security.web.access.intercept.AuthorizationFilter@6da86e98]
+2026-02-12T00:18:05.330+05:30  INFO 22820 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-02-12T00:18:05.330+05:30  INFO 22820 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-02-12T00:18:05.336+05:30  INFO 22820 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 4 ms
+2026-02-12T00:18:05.372+05:30  INFO 22820 --- [           main] c.s.backend.AuthIntegrationTest          : Started AuthIntegrationTest in 10.831 seconds (process running for 12.989)
+Hibernate: select r1_0.id,r1_0.name from roles r1_0 where r1_0.name=?
+Hibernate: select r1_0.id,r1_0.name from roles r1_0 where r1_0.name=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.enabled,u1_0.name,u1_0.password from users u1_0 where u1_0.email=?
+Hibernate: select r1_0.user_id,r1_1.id,r1_1.name from user_roles r1_0 join roles r1_1 on r1_1.id=r1_0.role_id where r1_0.user_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.enabled,u1_0.name,u1_0.password from users u1_0 where u1_0.email=?
+Hibernate: select r1_0.user_id,r1_1.id,r1_1.name from user_roles r1_0 join roles r1_1 on r1_1.id=r1_0.role_id where r1_0.user_id=?
+Hibernate: select r1_0.id,r1_0.name from roles r1_0 where r1_0.name=?
+Hibernate: select r1_0.id,r1_0.name from roles r1_0 where r1_0.name=?
+Hibernate: select r1_0.id,r1_0.name from roles r1_0 where r1_0.name=?
+Hibernate: select u1_0.id from users u1_0 where u1_0.email=? fetch first ? rows only
+WARNING: A Java agent has been loaded dynamically (C:\Users\kheru\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.11\byte-buddy-agent-1.14.11.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+Java HotSpot(TM) 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+Hibernate: select u1_0.id,u1_0.email,u1_0.enabled,u1_0.name,u1_0.password from users u1_0 where u1_0.email=?
+Hibernate: select r1_0.user_id,r1_1.id,r1_1.name from user_roles r1_0 join roles r1_1 on r1_1.id=r1_0.role_id where r1_0.user_id=?
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.46 s -- in com.secureexam.backend.AuthIntegrationTest
+[INFO] Running com.secureexam.backend.BackendApplicationTests
+2026-02-12T00:18:07.025+05:30  INFO 22820 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.secureexam.backend.BackendApplicationTests]: BackendApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-02-12T00:18:07.030+05:30  INFO 22820 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.secureexam.backend.BackendApplication for test class com.secureexam.backend.BackendApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.2)
+
+2026-02-12T00:18:07.132+05:30  INFO 22820 --- [           main] c.s.backend.BackendApplicationTests      : Starting BackendApplicationTests using Java 21.0.7 with PID 22820 (started by kheru in E:\secure-exam-platform\backend)
+2026-02-12T00:18:07.133+05:30  INFO 22820 --- [           main] c.s.backend.BackendApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2026-02-12T00:18:07.514+05:30  INFO 22820 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-12T00:18:07.540+05:30  INFO 22820 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25 ms. Found 7 JPA repository interfaces.
+2026-02-12T00:18:07.687+05:30  INFO 22820 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-12T00:18:07.694+05:30  INFO 22820 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-02-12T00:18:07.702+05:30  INFO 22820 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-12T00:18:07.705+05:30  INFO 22820 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-02-12T00:18:07.795+05:30  INFO 22820 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@355e1080
+2026-02-12T00:18:07.796+05:30  INFO 22820 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-02-12T00:18:07.809+05:30  WARN 22820 --- [           main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-02-12T00:18:08.103+05:30  INFO 22820 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-12T00:18:08.250+05:30  INFO 22820 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-12T00:18:08.512+05:30  WARN 22820 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-12T00:18:08.534+05:30  WARN 22820 --- [           main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 928cb53d-889c-4f67-baa4-5623bcf2145c
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-02-12T00:18:08.667+05:30  INFO 22820 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@210b4145, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@19cb3f, org.springframework.security.web.context.SecurityContextHolderFilter@130901fd, org.springframework.security.web.header.HeaderWriterFilter@71669835, org.springframework.web.filter.CorsFilter@738a1324, org.springframework.security.web.authentication.logout.LogoutFilter@65589d76, com.secureexam.backend.security.jwt.JwtAuthFilter@86e7c7a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@659f5f32, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@20fdd484, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@73ec417b, org.springframework.security.web.session.SessionManagementFilter@727d937a, org.springframework.security.web.access.ExceptionTranslationFilter@5304ac92, org.springframework.security.web.access.intercept.AuthorizationFilter@34b69a14]
+2026-02-12T00:18:08.964+05:30  INFO 22820 --- [           main] c.s.backend.BackendApplicationTests      : Started BackendApplicationTests in 1.918 seconds (process running for 16.581)
+Hibernate: select r1_0.id,r1_0.name from roles r1_0 where r1_0.name=?
+Hibernate: select r1_0.id,r1_0.name from roles r1_0 where r1_0.name=?
+Hibernate: select r1_0.id,r1_0.name from roles r1_0 where r1_0.name=?
+Hibernate: select u1_0.id from users u1_0 where u1_0.email=? fetch first ? rows only
+Hibernate: select r1_0.id,r1_0.name from roles r1_0 where r1_0.name=?
+Hibernate: select r1_0.id,r1_0.name from roles r1_0 where r1_0.name=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.enabled,u1_0.name,u1_0.password from users u1_0 where u1_0.email=?
+Hibernate: select r1_0.user_id,r1_1.id,r1_1.name from user_roles r1_0 join roles r1_1 on r1_1.id=r1_0.role_id where r1_0.user_id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.enabled,u1_0.name,u1_0.password from users u1_0 where u1_0.email=?
+Hibernate: select r1_0.user_id,r1_1.id,r1_1.name from user_roles r1_0 join roles r1_1 on r1_1.id=r1_0.role_id where r1_0.user_id=?
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.012 s -- in com.secureexam.backend.BackendApplicationTests
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  23.971 s
+[INFO] Finished at: 2026-02-12T00:18:09+05:30
+[INFO] ------------------------------------------------------------------------
