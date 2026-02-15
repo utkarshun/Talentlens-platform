@@ -1,5 +1,8 @@
 # TalentLens: AI-Powered Secure Assessment & Interview Prep
 
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+
 A comprehensive full-stack solution designed to streamline the recruitment lifecycle through secure, AI-proctored examinations and targeted technical interview preparation.
 
 ## Key Features
@@ -18,22 +21,25 @@ A comprehensive full-stack solution designed to streamline the recruitment lifec
 
 ## Getting Started (Docker)
 
+To run the application locally, please follow the detailed instructions in [DEPLOYMENT.md](DEPLOYMENT.md).
+
 1.  Clone the repository:
     ```bash
-    git clone https://github.com/utkarshun/secure-exam-platform.git
+    git clone https://github.com/utkarshun/Talentlens-platform.git
     ```
 2.  Navigate to the project root:
     ```bash
-    cd secure-exam-platform
+    cd Talentlens-platform
     ```
 3.  Start the application:
     ```bash
     docker-compose up --build
     ```
-4.  Access the application:
-    -   Frontend: `http://localhost:80`
-    -   Backend API: `http://localhost:8080`
+
+## Contributing
+
+Contributions are always welcome! Please read the [Contributing Guide](CONTRIBUTING.md) and [Code of Conduct](CODE_OF_CONDUCT.md) first.
 
 ## License
 
-MIT License
+Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
